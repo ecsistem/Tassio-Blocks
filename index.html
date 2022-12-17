@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tassio Blocks - Validador JS</title>
+  
+
+</head>
+<body>
+<head>
+  <title>Tassio Blocks - Validador JS</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Tassio Blocks - Validador JS</h1>
+    <div class="container">
+      <textarea id="textarea" class="editorContainer" placeholder="Digite seu código JavaScript para verificar se ha erros"></textarea>
+      <button id="validate" onclick="Validator()">Validar</button>
+    </div>
+      <p class="read-the-docs" id="msg">
+    <div class="flex space-around">
+      <p class="read-the-docs m-12">
+        Numero de letras: <p class="var" id="lyrics"></p>
+      </p>
+      <p class="read-the-docs m-12">
+        Numero de linhas digitadas: <p class="var" id="line"></p>
+      </p>
+      <p class="read-the-docs m-12">
+        Tamanho em bytes: <p class="var" id="bytes"></p>
+      </p>
+      <p class="read-the-docs m-12">
+        Tempo de execução: <p class="var" id="time"></p>
+      </p>
+    </div>
+  </div>
+  
+</body>
+  <script  src="./script.js"></script>
+</body>
+</html>
